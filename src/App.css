@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.counter[data-content="0"] {
+    color: red;
+}
+
+.actionButtons {
+    display: flex;
+    column-gap: 20px;
+}
