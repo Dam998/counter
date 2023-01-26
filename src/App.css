@@ -12,4 +12,19 @@
 .actionButtons {
     display: flex;
     column-gap: 20px;
+    justify-content: center;
+}
+
+.chuckFacts {
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    background: #1a1a1a;
+}
+
+.chuckFacts > p {
+    margin: 0px;
+    font-weight: bold;
 }
